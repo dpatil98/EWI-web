@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(44, 44, 44);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    ;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+
+
+.heading-container{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    padding: 1.5rem;
+    color: green;
+
+
+}
+
+.table{
+    margin:  100px 0;
+    background-color: rgb(39, 38, 38);
+    box-shadow: 1px 5px 10px rgba(220, 220, 220, 0.308);
+}
+
+table tr:hover{
+
+    color: rgb(183, 255, 134);
+    background-color: rgba(180, 235, 189, 0.062);
+}
+
+.btn-open{
+    
+    
+    padding: 5px 10px;
+  
+    
+    text-align: center;
+    color: white;
+    background-color: rgb(32, 146, 38);
+
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-open:hover{
+    /* background-color: rgb(42, 180, 49); */
+    color: rgb(32, 146, 38);
+    background-color: rgb(181, 255, 186);
+}
+
+.btn-open:active{
+    background-color: rgb(39, 158, 45);
+    padding: 4px 8px;
+}
+
+.btn-delete {
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(146, 32, 32);
+
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-delete:hover{
+    /* background-color: rgb(180, 42, 42); */
+    color: rgb(122, 22, 22);
+    background-color: rgb(255, 203, 203);
+}
+
+.btn-delete:active{
+    background-color: rgb(158, 39, 39);
+    padding: 4px 8px;
+}
